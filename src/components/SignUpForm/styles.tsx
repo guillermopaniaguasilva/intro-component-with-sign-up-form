@@ -9,6 +9,12 @@ export const Form = styled.form`
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
   margin-bottom: 68px;
   padding: 0 24px;
+
+  @media only screen and (min-width: 600px) {
+    margin-left: 0;
+    width: 540px;
+    padding-bottom: 40px;
+  }
 `;
 
 export const SubmitButton = styled.button`

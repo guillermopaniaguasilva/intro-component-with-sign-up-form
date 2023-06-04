@@ -6,6 +6,8 @@ export const Section = styled.section`
   flex-direction: column;
 `;
 
+export const DesktopContainer = styled.div``
+
 export const Heading = styled.h1`
   color: ${COLORS.WHITE};
   font-size: 28px;
@@ -33,6 +35,11 @@ export const Card = styled.div`
   border-radius: 10px;
   padding: 18px 66px;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+
+  @media only screen and (min-width: 600px) {
+    margin-left: 0;
+    min-width: 540px;
+  }
 `;
 
 export const CardText = styled.p`

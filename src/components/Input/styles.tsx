@@ -32,7 +32,7 @@ export const InputControl = styled.input<InputControlProps>`
   }
 
   @media only screen and (min-width: 600px) {
-    width: 190%;
+    width: 100%;
     height: 56px;
   }
 `;
@@ -45,7 +45,8 @@ export const ErrorIcon = styled.img`
   left: 230px;
 
   @media only screen and (min-width: 600px) {
-    top: 48px;
+    top: 30px;
+    left: 450px;
   }
 `;
 

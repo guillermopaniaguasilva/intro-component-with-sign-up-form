@@ -19,3 +19,10 @@ body {
   background-image: url('../public/assets/images/bg-intro-mobile.png');
   background-color: hsl(0, 100%, 74%);
 }
+
+@media only screen and (min-width: 600px) {
+  #root {
+    background-image: url('../public/assets/images/bg-intro-desktop.png');
+    flex-direction: row;
+  }
+}
